@@ -15,31 +15,20 @@ O desafio **Cookie Monster** consiste em acessar um website e encontrar a flag p
 
 Ao acessar o link fornecido pelo desafio, somos direcionados para uma página web.
 
-[![Página inicial do desafio](Atividade 1/Imagens/site_cookie_monster.png)]
+[![Captura-de-tela-2026-08-13-234017.png](https://i.postimg.cc/7ZwJ3s2m/Captura-de-tela-2026-08-13-234017.png)](https://postimg.cc/w74BHkFm)
 
-Como o desafio possui o nome **Cookie Monster**, uma das primeiras possibilidades a serem investigadas são os cookies utilizados pelo website. Para analisá-los, podemos abrir as ferramentas de desenvolvedor do navegador utilizando `F12` e acessar a seção de armazenamento de cookies.
+Como o desafio possui o nome **Cookie Monster**, uma das primeiras possibilidades a serem investigadas são os cookies utilizados pelo website. Para analisá-los, podemos abrir as ferramentas de desenvolvedor do navegador e acessar a seção de armazenamento de cookies.
 
 ### Resolução
 
-Na área de cookies, encontramos uma informação relacionada ao nível de acesso do usuário.
-
-[![Cookies do website](CAMINHO_DO_PRINT)](LINK_DO_PRINT)
-
-Entre os cookies encontrados, identificamos um cujo valor poderia ser alterado para:
-
-```text
-admin
-```
+Na área de cookies, encontramos uma informação relacionada ao nível de acesso do usuário. Com isso é possível alterar o valor de admin de *nao* para *sim*.  
 
 Após realizar a alteração e recarregar a página, o website passou a reconhecer o usuário como administrador.
-
-[![Cookie alterado](CAMINHO_DO_PRINT)](LINK_DO_PRINT)
-
 Com o novo nível de acesso, a aplicação revelou a flag.
 
-[![Flag](CAMINHO_DO_PRINT)](LINK_DO_PRINT)
+[![imagem-2026-08-13-235642132.png](https://i.postimg.cc/vm1Yff3v/imagem-2026-08-13-235642132.png)](https://postimg.cc/WDvcPFRD)
 
-> **Flag:** `COLOCAR_FLAG_AQUI`
+> **Flag:** `FLAG{C00K1E_M0NST3R_MUNCH}`
 
 ### Conclusão
 
