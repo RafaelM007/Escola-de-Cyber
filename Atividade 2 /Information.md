@@ -1,8 +1,8 @@
-# informação
+# information
 
 > Autor: **Rafael Moreira Xavier**
 >
-> Categoria: ForenseFácil
+> Categoria: Forense
 
 ### Introdução
 
